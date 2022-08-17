@@ -614,14 +614,14 @@ def eta_salto_term(N_col,T_f=15,T_amb=30,n0=0.756,a1=4.052,a2=0.0138,A=1.93,ef=0
 
 
 # create figure and axis objects with subplots()
-fig,ax = plt.subplots(figsize=(10,6))
+#fig,ax = plt.subplots(figsize=(10,6))
 # make a plot
-ax.plot(x, T_col, color="red", marker="o")
+#ax.plot(x, T_col, color="red", marker="o")
 # set x-axis label
-ax.set_xlabel("N° Colector",fontsize=20,name='Cambria')
+#ax.set_xlabel("N° Colector",fontsize=20,name='Cambria')
 # set y-axis label
-ax.set_ylabel("Temperatura colector,°C",color="red",fontsize=20,name='Cambria')
-plt.show()
+#ax.set_ylabel("Temperatura colector,°C",color="red",fontsize=20,name='Cambria')
+#plt.show()
 
 
 # In[327]:
