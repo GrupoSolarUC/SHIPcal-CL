@@ -586,28 +586,28 @@ def eta_salto_term(N_col,T_f=15,T_amb=30,n0=0.756,a1=4.052,a2=0.0138,A=1.93,ef=0
 # In[180]:
 
 
-N_col=9
-T_col,Eta_col=eta_salto_term(N_col=N_col)
-x=np.arange(1,N_col+1)
+#N_col=9
+#T_col,Eta_col=eta_salto_term(N_col=N_col)
+#x=np.arange(1,N_col+1)
 
 
 # In[181]:
 
 
 # create figure and axis objects with subplots()
-fig,ax = plt.subplots(figsize=(10,6))
+#fig,ax = plt.subplots(figsize=(10,6))
 # make a plot
-ax.plot(x, T_col, color="red", marker="o")
+#ax.plot(x, T_col, color="red", marker="o")
 # set x-axis label
-ax.set_xlabel("N° Colector",fontsize=20,name='Cambria')
+#ax.set_xlabel("N° Colector",fontsize=20,name='Cambria')
 # set y-axis label
-ax.set_ylabel("Temperatura colector,°C",color="red",fontsize=20,name='Cambria')
+#ax.set_ylabel("Temperatura colector,°C",color="red",fontsize=20,name='Cambria')
 # twin object for two different y-axis on the sample plot
-ax2=ax.twinx()
+#ax2=ax.twinx()
 # make a plot with different y-axis using second axis object
-ax2.plot(x, Eta_col*100,color="blue",marker="o")
-ax2.set_ylabel("Eficiencia,%",color="blue",fontsize=20,name='Cambria')
-plt.show()
+#ax2.plot(x, Eta_col*100,color="blue",marker="o")
+#ax2.set_ylabel("Eficiencia,%",color="blue",fontsize=20,name='Cambria')
+#plt.show()
 
 
 # In[229]:
