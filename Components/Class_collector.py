@@ -14,7 +14,7 @@ from scipy import interpolate
 from simulation_functions import corr_exp_solar, Irradiance_2,State
 
 
-class Collector():
+class Collector:
     'Class '
     
     def __init__(self,coll_parameters):
